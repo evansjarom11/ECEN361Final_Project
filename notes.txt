@@ -1,21 +1,3 @@
--Colors | Wires from the car to the raspberry pi
-Black goes to Blue
-Red goes to Brown
-Blue goes to Red
-Brown goes to Black
-- On Raspberry Pi Hat
-Red on left L
-Black on right L
-Brown on left R
-Blue on Right R
-
-- Make things simple
-- Wires to be on the same color
-Red should be on left R
-Black should be on right R
-Blue should be on left L
-Brown should be on right R
-
 -Motors
 rr.set_motors(1,1,0,0) // Turn Right
 rr.set_motors(1,0,0,0) // Turn Left
